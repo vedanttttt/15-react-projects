@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Navbar from "./Navbar";
 function App() {
   return (
     <>
-      <h2>navbar project setup</h2>
+      <Navbar />
+      {/* <h1 style={{ color: "blue" }}>Hello</h1> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
